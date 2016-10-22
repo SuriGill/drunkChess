@@ -1,0 +1,24 @@
+{
+  "name": "drunkchess",
+  "version": "1.0.0",
+  "description": "A chess game that gets harder as the user is unable to tell what pieces are different from each other",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuriGill/drunkChess.git"
+  },
+  "keywords": [
+    "drunk",
+    "chess",
+    "mcmaster"
+  ],
+  "author": "Surinder Gill",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SuriGill/drunkChess/issues"
+  },
+  "homepage": "https://github.com/SuriGill/drunkChess#readme"
+}
