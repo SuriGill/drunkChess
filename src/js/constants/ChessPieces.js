@@ -8,12 +8,12 @@ const ChessPieces = {
   'N': 'a',
   'P': 'a',
   // black pieces
-  'k': 'A',
-  'q': 'A',
-  'r': 'A',
-  'b': 'A',
-  'n': 'A',
-  'p': 'A',
+  'k': 'a',
+  'q': 'a',
+  'r': 'a',
+  'b': 'a',
+  'n': 'a',
+  'p': 'a',
   // empty square
   '-': undefined
 };
