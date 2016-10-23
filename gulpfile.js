@@ -1,5 +1,5 @@
 var ENV = process.env.NODE_ENV;
-var IS_DEVELOPMENT;
+var IS_PRODUCTION;
 
 if (ENV !== 'development' && ENV !== 'production')
   throw new Error('NODE_ENV must be set to either development or production.');
