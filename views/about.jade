@@ -1,0 +1,20 @@
+extends layout
+
+block content
+  img(src='/img/beer.png', width='120', height='120', class='beer')
+  h1 About Drunk Chess
+  p(style='margin: 50px 0;') "Chess is for the weak. Drunk Chess is for the brave."
+    | DrunkChess uses 
+    a(href='http://github.com/jhlywa/chess.js') chess.js
+    |  for move validation and check/mate/draw detection.
+
+  h2 Why DrunkChess?
+  p This game is not your original chess game. It confuses the user as they are not able to identify which of their own pieces are which unless they have been keeping track. There is also a game mode for the strong where the two users share the same colour pieces and unless they've been keeping track, they are both in a whole heap of trouble. 
+
+  h2 What features are supported?
+  p You're not actually drunk, are you? This game will test your memory, chess skills and most of all, who can handle their drinks better
+    | DrunkChess provides two users to chat and have timelimits in game. 
+    | The game connection closes on a reload or termination of the page.
+
+  p(style='margin-top: 50px')
+    a(href='/', class='btn yellow', style='float: none;') Home

@@ -1,2 +1,6 @@
-# drunkChess
-A chess game that gets harder as the user is unable to tell what pieces are different from each other
+npm install
+npm start
+npm run build
+
+
+*creates a thing on localhost:3000
